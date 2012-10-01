@@ -8,6 +8,15 @@
 
 #import <Foundation/Foundation.h>
 
-@interface basePizza : NSObject
+@interface BasePizza : NSObject
+{
+    NSString *size;
+    int price;
+    
+}
+
+-(NSString*)getSize;
+-(void)setPrice:(int)newValue;
+
 
 @end

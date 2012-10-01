@@ -8,8 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
+@class BasePizza;
+
 @interface ViewController : UIViewController
 {
     UILabel *textlabel;
+    
+    BasePizza *basePizza;
 }
 @end

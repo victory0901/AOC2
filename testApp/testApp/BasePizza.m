@@ -6,8 +6,30 @@
 //  Copyright (c) 2012 James Floyd II. All rights reserved.
 //
 
-#import "basePizza.h"
+#import "BasePizza.h"
 
-@implementation basePizza
+@implementation BasePizza
 
+-(id)init
+{
+    if (self = [super init])
+    {
+        size = @"L";    //string data member
+        price = 15;     //numeric data member
+    }
+    
+    return self;
+}
+
+//Accessor method
+-(NSString*)getSize
+{
+    return size;
+}
+
+//Mutator method
+-(void)setPrice:(int)newValue
+{
+    price = newValue;
+}
 @end

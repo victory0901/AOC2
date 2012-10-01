@@ -15,7 +15,7 @@
 		1A10DC3B1618FF4300A30ABE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A10DC3A1618FF4300A30ABE /* AppDelegate.m */; };
 		1A10DC3E1618FF4300A30ABE /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A10DC3C1618FF4300A30ABE /* MainStoryboard.storyboard */; };
 		1A10DC411618FF4300A30ABE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A10DC401618FF4300A30ABE /* ViewController.m */; };
-		1A10DC4C1619099D00A30ABE /* basePizza.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A10DC4B1619099D00A30ABE /* basePizza.m */; };
+		1A10DC4C1619099D00A30ABE /* BasePizza.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A10DC4B1619099D00A30ABE /* BasePizza.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,8 +32,8 @@
 		1A10DC3D1618FF4300A30ABE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		1A10DC3F1618FF4300A30ABE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		1A10DC401618FF4300A30ABE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		1A10DC4A1619099D00A30ABE /* basePizza.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = basePizza.h; sourceTree = "<group>"; };
-		1A10DC4B1619099D00A30ABE /* basePizza.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = basePizza.m; sourceTree = "<group>"; };
+		1A10DC4A1619099D00A30ABE /* BasePizza.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasePizza.h; sourceTree = "<group>"; };
+		1A10DC4B1619099D00A30ABE /* BasePizza.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasePizza.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,8 +86,8 @@
 				1A10DC3F1618FF4300A30ABE /* ViewController.h */,
 				1A10DC401618FF4300A30ABE /* ViewController.m */,
 				1A10DC311618FF4300A30ABE /* Supporting Files */,
-				1A10DC4A1619099D00A30ABE /* basePizza.h */,
-				1A10DC4B1619099D00A30ABE /* basePizza.m */,
+				1A10DC4A1619099D00A30ABE /* BasePizza.h */,
+				1A10DC4B1619099D00A30ABE /* BasePizza.m */,
 			);
 			path = testApp;
 			sourceTree = "<group>";
@@ -169,7 +169,7 @@
 				1A10DC371618FF4300A30ABE /* main.m in Sources */,
 				1A10DC3B1618FF4300A30ABE /* AppDelegate.m in Sources */,
 				1A10DC411618FF4300A30ABE /* ViewController.m in Sources */,
-				1A10DC4C1619099D00A30ABE /* basePizza.m in Sources */,
+				1A10DC4C1619099D00A30ABE /* BasePizza.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

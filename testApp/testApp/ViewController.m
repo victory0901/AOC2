@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "BasePizza.h"
 @interface ViewController ()
 
 @end
@@ -16,9 +16,14 @@
 
 - (void)viewDidLoad
 {
-    textlabel = [[UILabel alloc] initWithFrame:CGRectMake(10, 10, 320, 100)];
-    textlabel.text = @"default text";
-    [self.view addSubview:textlabel];
+    basePizza = [[BasePizza alloc] init];
+    if (basePizza != nil)
+    {
+        NSString *sizeValue = [basePizza getSize];
+        [basePizza setPrice:10];
+        sizeValue = [basePizza getSize];
+    }
+    
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
 }
