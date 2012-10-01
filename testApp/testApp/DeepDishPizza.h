@@ -1,5 +1,5 @@
 //
-//  basePizza.h
+//  DeepDishPizza.h
 //  testApp
 //
 //  Created by James Floyd II on 9/30/12.
@@ -7,14 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-
-@interface BasePizza : NSObject
-{
-@private
-    NSString *size;
-    int price;
-}
-
-@property int price;
+#import "BasePizza.h"
+@interface DeepDishPizza : BasePizza
 
 @end

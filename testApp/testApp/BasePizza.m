@@ -21,15 +21,5 @@
     return self;
 }
 
-//Accessor method
--(NSString*)getSize
-{
-    return size;
-}
 
-//Mutator method
--(void)setPrice:(int)newValue
-{
-    price = newValue;
-}
 @end

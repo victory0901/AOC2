@@ -19,9 +19,7 @@
     basePizza = [[BasePizza alloc] init];
     if (basePizza != nil)
     {
-        NSString *sizeValue = [basePizza getSize];
-        [basePizza setPrice:10];
-        sizeValue = [basePizza getSize];
+        //fill in
     }
     
     [super viewDidLoad];
