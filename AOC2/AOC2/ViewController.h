@@ -8,6 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
+@class Pizza;
 @interface ViewController : UIViewController
+{
+    UILabel *pizzaLabel;
+    
+    Pizza *pizza;
+}
 
 @end

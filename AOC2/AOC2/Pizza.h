@@ -9,5 +9,16 @@
 #import <Foundation/Foundation.h>
 
 @interface Pizza : NSObject
+{
+    //data members
+    int price;
+    NSString *size;
+    NSString *text;
+}
 
+-(NSString*)getText;
+
+//accessor and mutator methods
+@property int price;
+@property NSString *size;
 @end

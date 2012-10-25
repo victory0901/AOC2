@@ -10,8 +10,28 @@
 
 @implementation Pizza
 
+@synthesize price, size;
+
 -(id)init
 {
     self = [super init];
+    if (self != nil)
+    {
+        // any init for this object
+        price = 10;
+        size = @"XL";
+    }
+    
+    return self;
+}
+
+-(NSString*)getText
+{
+    text = [NSString stringWithFormat:@"price = %d, size = %@", price, size];
+    if (text != nil)
+    {
+        return text;
+    }
+    return nil;
 }
 @end
