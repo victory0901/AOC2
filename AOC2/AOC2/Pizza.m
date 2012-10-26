@@ -10,7 +10,6 @@
 
 @implementation Pizza
 
-@synthesize price, size;
 -(void)setAttributes:(EPizzaType)type isSize:(NSString*)isSize isPrice:(int)isPrice
 {
     price = isPrice;
@@ -25,9 +24,7 @@
     self = [super init];
     if (self != nil)
     {
-        // any init for this object
-        //price = 10;
-        //size = @"XL";
+        
     }
     
     return self;

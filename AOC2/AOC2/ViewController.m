@@ -11,7 +11,7 @@
 #import "ThinCrustPizza.h"
 #import "DeepDishPizza.h"
 #import "StuffedCrustPizza.h"
-
+#import "PizzaFactory.h"
 @interface ViewController ()
 
 @end
@@ -36,6 +36,11 @@
         
     }
     
+    PizzaFactory *pizzaFactory = [[PizzaFactory alloc] init];
+    if (pizzaFactory != nil)
+    {
+        Pizza *
+    }
     
     [self.view addSubview:pizzaLabel];
     

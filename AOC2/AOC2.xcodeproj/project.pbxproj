@@ -22,6 +22,7 @@
 		1A6C7FDB1639FB62004EA747 /* ThinCrustPizza.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A6C7FDA1639FB62004EA747 /* ThinCrustPizza.m */; };
 		1A6C7FDE1639FF1C004EA747 /* DeepDishPizza.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A6C7FDD1639FF1C004EA747 /* DeepDishPizza.m */; };
 		1A6C7FE1163A0492004EA747 /* StuffedCrustPizza.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A6C7FE0163A0492004EA747 /* StuffedCrustPizza.m */; };
+		1A6C7FE4163A0D70004EA747 /* PizzaFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A6C7FE3163A0D70004EA747 /* PizzaFactory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +50,8 @@
 		1A6C7FDD1639FF1C004EA747 /* DeepDishPizza.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeepDishPizza.m; sourceTree = "<group>"; };
 		1A6C7FDF163A0492004EA747 /* StuffedCrustPizza.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StuffedCrustPizza.h; sourceTree = "<group>"; };
 		1A6C7FE0163A0492004EA747 /* StuffedCrustPizza.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StuffedCrustPizza.m; sourceTree = "<group>"; };
+		1A6C7FE2163A0D70004EA747 /* PizzaFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PizzaFactory.h; sourceTree = "<group>"; };
+		1A6C7FE3163A0D70004EA747 /* PizzaFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PizzaFactory.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +112,8 @@
 				1A6C7FDD1639FF1C004EA747 /* DeepDishPizza.m */,
 				1A6C7FDF163A0492004EA747 /* StuffedCrustPizza.h */,
 				1A6C7FE0163A0492004EA747 /* StuffedCrustPizza.m */,
+				1A6C7FE2163A0D70004EA747 /* PizzaFactory.h */,
+				1A6C7FE3163A0D70004EA747 /* PizzaFactory.m */,
 			);
 			path = AOC2;
 			sourceTree = "<group>";
@@ -200,6 +205,7 @@
 				1A6C7FDB1639FB62004EA747 /* ThinCrustPizza.m in Sources */,
 				1A6C7FDE1639FF1C004EA747 /* DeepDishPizza.m in Sources */,
 				1A6C7FE1163A0492004EA747 /* StuffedCrustPizza.m in Sources */,
+				1A6C7FE4163A0D70004EA747 /* PizzaFactory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
