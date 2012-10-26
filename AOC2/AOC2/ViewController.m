@@ -8,6 +8,10 @@
 
 #import "ViewController.h"
 #import "Pizza.h"
+#import "ThinCrustPizza.h"
+#import "DeepDishPizza.h"
+#import "StuffedCrustPizza.h"
+
 @interface ViewController ()
 
 @end
@@ -16,13 +20,21 @@
 
 - (void)viewDidLoad
 {
-    pizza = [[Pizza alloc]init];
-    if (pizza != nil)
+    ThinCrustPizza *thinCrust = [[ThinCrustPizza alloc]init];
+    if (thinCrust != nil)
     {
         
     }
-    pizzaLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 320, 100)];
-    pizzaLabel.text = [pizza getText];
+    DeepDishPizza *deepDish = [[DeepDishPizza alloc]init];
+    if (deepDish != nil)
+    {
+        
+    }
+    StuffedCrustPizza *stuffedCrust = [[StuffedCrustPizza alloc]init];
+    if (stuffedCrust != nil)
+    {
+        
+    }
     
     
     [self.view addSubview:pizzaLabel];

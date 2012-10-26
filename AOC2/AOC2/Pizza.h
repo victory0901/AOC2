@@ -8,15 +8,24 @@
 
 #import <Foundation/Foundation.h>
 
+typedef enum
+{
+    PIZZATYPE_STUFFED = 0,
+    PIZZATYPE_THIN,
+    PIZZATYPE_DEEPDISH
+} EPizzaType;
+
 @interface Pizza : NSObject
 {
+    EPizzaType pizzaType;
+    
     //data members
     int price;
     NSString *size;
-    NSString *text;
+    
 }
 
--(NSString*)getText;
+-(void)setAttributes:(EPizzaType)type isSize:(NSString*)isSize isPrice:(int)isPrice;
 
 //accessor and mutator methods
 @property int price;

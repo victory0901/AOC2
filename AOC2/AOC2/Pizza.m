@@ -11,6 +11,14 @@
 @implementation Pizza
 
 @synthesize price, size;
+-(void)setAttributes:(EPizzaType)type isSize:(NSString*)isSize isPrice:(int)isPrice
+{
+    price = isPrice;
+    size = isSize;
+    pizzaType = PIZZATYPE_THIN;
+}
+
+
 
 -(id)init
 {
@@ -18,20 +26,11 @@
     if (self != nil)
     {
         // any init for this object
-        price = 10;
-        size = @"XL";
+        //price = 10;
+        //size = @"XL";
     }
     
     return self;
 }
 
--(NSString*)getText
-{
-    text = [NSString stringWithFormat:@"price = %d, size = %@", price, size];
-    if (text != nil)
-    {
-        return text;
-    }
-    return nil;
-}
 @end

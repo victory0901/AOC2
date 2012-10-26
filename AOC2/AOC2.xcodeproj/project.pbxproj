@@ -19,6 +19,9 @@
 		1A6C7FCD1639CAF6004EA747 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A6C7FCC1639CAF6004EA747 /* ViewController.m */; };
 		1A6C7FD01639CAF6004EA747 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A6C7FCE1639CAF6004EA747 /* ViewController.xib */; };
 		1A6C7FD81639D9F7004EA747 /* Pizza.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A6C7FD71639D9F7004EA747 /* Pizza.m */; };
+		1A6C7FDB1639FB62004EA747 /* ThinCrustPizza.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A6C7FDA1639FB62004EA747 /* ThinCrustPizza.m */; };
+		1A6C7FDE1639FF1C004EA747 /* DeepDishPizza.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A6C7FDD1639FF1C004EA747 /* DeepDishPizza.m */; };
+		1A6C7FE1163A0492004EA747 /* StuffedCrustPizza.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A6C7FE0163A0492004EA747 /* StuffedCrustPizza.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +43,12 @@
 		1A6C7FCF1639CAF6004EA747 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
 		1A6C7FD61639D9F7004EA747 /* Pizza.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pizza.h; sourceTree = "<group>"; };
 		1A6C7FD71639D9F7004EA747 /* Pizza.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pizza.m; sourceTree = "<group>"; };
+		1A6C7FD91639FB62004EA747 /* ThinCrustPizza.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThinCrustPizza.h; sourceTree = "<group>"; };
+		1A6C7FDA1639FB62004EA747 /* ThinCrustPizza.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThinCrustPizza.m; sourceTree = "<group>"; };
+		1A6C7FDC1639FF1C004EA747 /* DeepDishPizza.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeepDishPizza.h; sourceTree = "<group>"; };
+		1A6C7FDD1639FF1C004EA747 /* DeepDishPizza.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeepDishPizza.m; sourceTree = "<group>"; };
+		1A6C7FDF163A0492004EA747 /* StuffedCrustPizza.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StuffedCrustPizza.h; sourceTree = "<group>"; };
+		1A6C7FE0163A0492004EA747 /* StuffedCrustPizza.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StuffedCrustPizza.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +103,12 @@
 				1A6C7FD71639D9F7004EA747 /* Pizza.m */,
 				1A6C7FCE1639CAF6004EA747 /* ViewController.xib */,
 				1A6C7FBA1639CAF6004EA747 /* Supporting Files */,
+				1A6C7FD91639FB62004EA747 /* ThinCrustPizza.h */,
+				1A6C7FDA1639FB62004EA747 /* ThinCrustPizza.m */,
+				1A6C7FDC1639FF1C004EA747 /* DeepDishPizza.h */,
+				1A6C7FDD1639FF1C004EA747 /* DeepDishPizza.m */,
+				1A6C7FDF163A0492004EA747 /* StuffedCrustPizza.h */,
+				1A6C7FE0163A0492004EA747 /* StuffedCrustPizza.m */,
 			);
 			path = AOC2;
 			sourceTree = "<group>";
@@ -182,6 +197,9 @@
 				1A6C7FC41639CAF6004EA747 /* AppDelegate.m in Sources */,
 				1A6C7FCD1639CAF6004EA747 /* ViewController.m in Sources */,
 				1A6C7FD81639D9F7004EA747 /* Pizza.m in Sources */,
+				1A6C7FDB1639FB62004EA747 /* ThinCrustPizza.m in Sources */,
+				1A6C7FDE1639FF1C004EA747 /* DeepDishPizza.m in Sources */,
+				1A6C7FE1163A0492004EA747 /* StuffedCrustPizza.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
