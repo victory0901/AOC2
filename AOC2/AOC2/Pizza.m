@@ -8,6 +8,8 @@
 
 #import "Pizza.h"
 
+
+
 @implementation Pizza
 
 -(id)initWithDetails:(EPizzaType)type isSize:(NSString*)isSize isPrice:(int)isPrice name:(NSString*)name
@@ -22,9 +24,10 @@
     return self;
 }
 
--(void)printName
+-(NSString*)printName
 {
-    NSLog(@"I am a %@", pizzaName);
+    NSString *nameValue = [[NSString alloc] initWithFormat:@"You bought a %@ %@.", size, pizzaName];
+    
+    return nameValue;
 }
-
 @end

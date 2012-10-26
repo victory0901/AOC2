@@ -11,5 +11,5 @@
 
 @interface PizzaFactory : NSObject
 
--(Pizza*)GetPizza:(int)pizzaType;
++(Pizza*)GetPizza:(int)pizzaType;
 @end

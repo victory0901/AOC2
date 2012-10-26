@@ -20,30 +20,24 @@
 
 - (void)viewDidLoad
 {
-    ThinCrustPizza *thinCrust = [[ThinCrustPizza alloc]init];
+    Pizza *thinCrust = [PizzaFactory GetPizza:PIZZATYPE_THIN];
     if (thinCrust != nil)
     {
-        
+        UILabel *firstThinLabel = [[UILabel alloc]initWithFrame:CGRectMake(0, 0, 320, 80)];
+        firstThinLabel.text = [thinCrust printName];
+        firstThinLabel.numberOfLines = 2;
+        [self.view addSubview:firstThinLabel];
     }
-    DeepDishPizza *deepDish = [[DeepDishPizza alloc]init];
+    Pizza *deepDish = [PizzaFactory GetPizza:PIZZATYPE_DEEPDISH];
     if (deepDish != nil)
     {
-        
+        [deepDish printName];
     }
-    StuffedCrustPizza *stuffedCrust = [[StuffedCrustPizza alloc]init];
+    Pizza *stuffedCrust = [PizzaFactory GetPizza:PIZZATYPE_STUFFED];
     if (stuffedCrust != nil)
     {
-        
+        [stuffedCrust printName];
     }
-    
-    PizzaFactory *pizzaFactory = [[PizzaFactory alloc] init];
-    if (pizzaFactory != nil)
-    {
-        Pizza *thinCrust = [pizzaFactory GetPizza:0];
-        [thinCrust printName];
-    }
-    
-    [self.view addSubview:pizzaLabel];
     
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.

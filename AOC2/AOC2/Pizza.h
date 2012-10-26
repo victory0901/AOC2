@@ -19,13 +19,12 @@ typedef enum
 {
     EPizzaType pizzaType;
     //data members
-    int price;
+    NSInteger price;
     NSString *size;
     NSString *pizzaName;
     
 }
-
 -(id)initWithDetails:(EPizzaType)type isSize:(NSString*)isSize isPrice:(int)isPrice name:(NSString*)name;
--(void)printName;
+-(NSString*)printName;
 
 @end

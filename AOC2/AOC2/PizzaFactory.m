@@ -10,19 +10,19 @@
 #import "Pizza.h"
 @implementation PizzaFactory
 
--(Pizza*)GetPizza:(int)pizzaType
++(Pizza*)GetPizza:(int)pizzaType
 {
-    if (pizzaType == 0)
+    if (pizzaType == PIZZATYPE_THIN)
     {
-        return [[Pizza alloc]initWithDetails:0 isSize:@"Any" isPrice:10 name:@"Thin Crust Pizza"];
+        return [[Pizza alloc]initWithDetails:PIZZATYPE_THIN isSize:@"Large" isPrice:10 name:@"Thin Crust Pizza"];
     }
-    else if (pizzaType == 1)
+    else if (pizzaType == PIZZATYPE_DEEPDISH)
     {
-        return [[Pizza alloc]initWithDetails:0 isSize:@"L" isPrice:20 name:@"Deep Dish Pizza"];
+        return [[Pizza alloc]initWithDetails:PIZZATYPE_DEEPDISH isSize:@"Large" isPrice:20 name:@"Deep Dish Pizza"];
     }
-    else if (pizzaType == 2)
+    else if (pizzaType == PIZZATYPE_STUFFED)
     {
-        return [[Pizza alloc]initWithDetails:0 isSize:@"XL" isPrice:10 name:@"Stuffed Crust Pizza"];
+        return [[Pizza alloc]initWithDetails:PIZZATYPE_STUFFED isSize:@"Large" isPrice:10 name:@"Stuffed Crust Pizza"];
     }
     return nil;
 }

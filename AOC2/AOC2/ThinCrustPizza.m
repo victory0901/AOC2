@@ -14,7 +14,7 @@
 -(id)init
 {
     if (self = [super init]) {
-        size = @"L";
+        size = @"Large";
         price = 20;
         pizzaName = @"Thin Crust Pizza";
     }
