@@ -20,4 +20,11 @@
     }
     return self;
 }
+
+-(int)recieptTotal:(int)price
+{
+    int paidAmount = price/2;
+    
+    return paidAmount;
+}
 @end

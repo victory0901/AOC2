@@ -15,10 +15,16 @@
 {
     if (self = [super init]) {
         size = @"Large";
-        price = 20;
+        price = 15;
         pizzaName = @"Stuffed Crust Pizza";
     }
     return self;
 }
-
+-(int)recieptTotal:(int)price
+{
+    int extraCost = 5;
+    int paidAmount = price + extraCost;
+    
+    return paidAmount;
+}
 @end

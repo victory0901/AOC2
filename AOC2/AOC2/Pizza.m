@@ -23,6 +23,15 @@
     }
     return self;
 }
+-(int)recieptTotal:(int)price
+{
+    int discount = 0;
+    int paidAmount = price - discount;
+    
+    return paidAmount;
+}
+
+
 
 -(NSString*)printName
 {

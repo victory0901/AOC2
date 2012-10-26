@@ -20,5 +20,12 @@
     }
     return self;
 }
-
+-(int)recieptTotal:(int)price
+{
+    int discount = 2;
+    int extraCost = 0;
+    int paidAmount = price - discount;
+    
+    return paidAmount;
+}
 @end

@@ -26,5 +26,5 @@ typedef enum
 }
 -(id)initWithDetails:(EPizzaType)type isSize:(NSString*)isSize isPrice:(int)isPrice name:(NSString*)name;
 -(NSString*)printName;
-
+-(int)recieptTotal:(int)price;
 @end
