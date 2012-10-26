@@ -10,24 +10,21 @@
 
 @implementation Pizza
 
--(void)setAttributes:(EPizzaType)type isSize:(NSString*)isSize isPrice:(int)isPrice
+-(id)initWithDetails:(EPizzaType)type isSize:(NSString*)isSize isPrice:(int)isPrice name:(NSString*)name
 {
-    price = isPrice;
-    size = isSize;
-    pizzaType = PIZZATYPE_THIN;
+    if (self = [super init])
+    {
+        price = isPrice;
+        size = isSize;
+        pizzaType = type;
+        pizzaName = name;
+    }
+    return self;
 }
 
-
-
--(id)init
+-(void)printName
 {
-    self = [super init];
-    if (self != nil)
-    {
-        
-    }
-    
-    return self;
+    NSLog(@"I am a %@", pizzaName);
 }
 
 @end

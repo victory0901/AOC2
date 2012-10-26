@@ -10,24 +10,22 @@
 
 typedef enum
 {
-    PIZZATYPE_STUFFED = 0,
-    PIZZATYPE_THIN,
-    PIZZATYPE_DEEPDISH
+    PIZZATYPE_THIN = 0,
+    PIZZATYPE_DEEPDISH,
+    PIZZATYPE_STUFFED
 } EPizzaType;
 
 @interface Pizza : NSObject
 {
     EPizzaType pizzaType;
-    
     //data members
     int price;
     NSString *size;
+    NSString *pizzaName;
     
 }
 
--(void)setAttributes:(EPizzaType)type isSize:(NSString*)isSize isPrice:(int)isPrice;
+-(id)initWithDetails:(EPizzaType)type isSize:(NSString*)isSize isPrice:(int)isPrice name:(NSString*)name;
+-(void)printName;
 
-//accessor and mutator methods
-@property int price;
-@property NSString *size;
 @end

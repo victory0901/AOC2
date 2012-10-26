@@ -14,7 +14,9 @@
 -(id)init
 {
     if (self = [super init]) {
-        [self setAttributes:PIZZATYPE_STUFFED isSize:@"L" isPrice:20];
+        size = @"L";
+        price = 20;
+        pizzaName = @"Stuffed Crust Pizza";
     }
     return self;
 }

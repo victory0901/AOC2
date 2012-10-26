@@ -39,7 +39,8 @@
     PizzaFactory *pizzaFactory = [[PizzaFactory alloc] init];
     if (pizzaFactory != nil)
     {
-        Pizza *
+        Pizza *thinCrust = [pizzaFactory GetPizza:0];
+        [thinCrust printName];
     }
     
     [self.view addSubview:pizzaLabel];
